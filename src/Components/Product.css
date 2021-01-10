@@ -1,0 +1,29 @@
+.body {
+  text-align: center;
+}
+.productContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+.productContainer > .link {
+  text-align: center;
+  width: 250px;
+  box-shadow: 0 0 10px #463636;
+  margin: 10px;
+}
+.productContainer > .link:hover {
+  background-color: lightgray;
+}
+.navBar {
+  margin: 100px;
+  color: white;
+  font-size: x-large;
+}
+.navBar:hover {
+  color: black;
+}
+.mainNav {
+  background-color: blue;
+  padding: 10px;
+  width: 100%;
+}
